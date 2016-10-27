@@ -1,13 +1,10 @@
 angular.module('myApp').directive('teacher', teacherDirective);
 
-
-teacherDirective.$inject = ['mainController'];
-
-function teacherDirective (mainController,$location) {
+function teacherDirective () {
   return {
     restrict: 'E',
     templateUrl: 'main.html',
-    controller: mainController,
+    controller: '',
     controllerAs:'mc'
   };
 }

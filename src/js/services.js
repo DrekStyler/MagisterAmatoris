@@ -1,8 +1,8 @@
 (function() {
 
-  getMembers.$inject= ['$http'];
+  getMembers.$inject = ['$http'];
 
-  'use strict';
+  'use strict'; //jshint ignore:line
   angular.module('myApp.services', [])
   .service('teacherService', teacherService);
 
@@ -17,6 +17,6 @@
     $http.get('https://galvanize-student-apis.herokuapp.com/gdating/members')
     .then((data) => {
       console.log(data);
-    })
+    });
   }
 }());
