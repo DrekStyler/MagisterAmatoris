@@ -1,0 +1,82 @@
+/* add custom styles */
+/** {
+  border:black 1px solid;
+}*/
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  text-align: center;
+  color: white;
+  background-color: #FF3D41;
+  font-family: Lucida Console;
+
+}
+
+h1 {
+  border-bottom: 2px solid;
+}
+
+h3 {
+  border-bottom: 2px solid;
+}
+.backdrop {
+  height:40%;
+  width:80%;
+}
+
+.footer_link {
+  color: white;
+  padding:0px 20px 20px 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.wrapper {
+    min-height: 60%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+}
+.footer, .push {
+    height: 50px;
+}
+
+.footer {
+  background-color: #FF3D41;
+  text-align: center;
+}
+
+.navbar {
+  display: inline;
+
+
+}
+
+.nav {
+  padding: 15px;
+  text-align: center;
+  border:solid black 2px;
+}
+
+.image-wrapper {
+  width:100%;
+  height:100%;
+  text-align: center;
+  background-color: #1C8ACC;
+  padding: 40px 15px;
+}
+
+.container {
+  text-align: center;
+  width: 45%;
+  min-height: 65%;
+  right:50px;
+}
+
+section {
+  text-align: center;
+}
